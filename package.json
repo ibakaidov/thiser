@@ -1,0 +1,30 @@
+{
+  "name": "thiser",
+  "version": "0.1.0",
+  "description": "Module for create constructors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "docs": "./node_modules/.bin/markdox index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ibakaidov/thiser.git"
+  },
+  "keywords": [
+    "util",
+    "thiser",
+    "constructor",
+    "options",
+    "functions"
+  ],
+  "author": "ibakaidov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibakaidov/thiser/issues"
+  },
+  "homepage": "https://github.com/ibakaidov/thiser#readme",
+  "devDependencies": {
+    "markdox": "^0.1.9"
+  }
+}
