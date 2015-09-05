@@ -1,8 +1,9 @@
-#Thiser
+# Thiser
 Module for create constructors. Util move fields...
 
-##Example
-``js
+## Example
+
+```js
 	var thiser = require("./");
 
 
@@ -13,8 +14,9 @@ Module for create constructors. Util move fields...
 	var zosya = new Cat({name:"Zosya", age:7});
 	console.log(zosya.sex); // 0
 	var noname = new Cat({sex:1}); // throw error: "Required field 'name' doesn't pass."
-``
-#API
+```
+
+## API
 
 ## thiser(thisObj, options, defaults, required)
 
