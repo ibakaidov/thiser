@@ -1,11 +1,11 @@
 {
   "name": "thiser",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "Module for create constructors.",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "docs": "./node_modules/.bin/markdox index.js"
+    "docs": "markdox index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "options",
     "functions"
   ],
-  "author": "ibakaidov",
+  "author": {
+    "name": "ibakaidov"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ibakaidov/thiser/issues"
@@ -26,5 +28,27 @@
   "homepage": "https://github.com/ibakaidov/thiser#readme",
   "devDependencies": {
     "markdox": "^0.1.9"
-  }
+  },
+  "gitHead": "46bd579db656c0ea01ab4f2758ba1a90d4f71ce3",
+  "_id": "thiser@0.1.5",
+  "_shasum": "a21d380ef22847495d16810a686c8758d20d286f",
+  "_from": "thiser@*",
+  "_npmVersion": "2.11.2",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "name": "ibakaidov",
+    "email": "ibakaidov@ya.ru"
+  },
+  "dist": {
+    "shasum": "a21d380ef22847495d16810a686c8758d20d286f",
+    "tarball": "http://registry.npmjs.org/thiser/-/thiser-0.1.5.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ibakaidov",
+      "email": "ibakaidov@ya.ru"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/thiser/-/thiser-0.1.5.tgz"
 }
